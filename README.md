@@ -1,4 +1,4 @@
-# 小冋记事 - 跨平台 Todo List 和记事本应用
+# TaskFlow - 跨平台 Todo List 和记事本应用
 
 一个简洁高效的桌面/移动端记事本应用，支持任务管理和富文本备忘录功能。
 
@@ -55,7 +55,7 @@ npm run dist
 ## 项目结构
 
 ```
-taskflow/
+TaskFlow/
 ├── electron/
 │   └── main.js              # Electron 主进程
 ├── src/

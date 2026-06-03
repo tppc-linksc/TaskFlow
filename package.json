@@ -1,7 +1,7 @@
 {
-  "name": "xiaojiong-note",
+  "name": "taskflow",
   "version": "1.0.1",
-  "description": "小冋记事 - 简洁的记事本应用",
+  "description": "TaskFlow - 简洁高效的跨平台记事本应用",
   "author": "小冋",
   "main": "electron/main.js",
   "scripts": {
@@ -47,8 +47,8 @@
     "vite": "^5.1.0"
   },
   "build": {
-    "appId": "com.xiaojiong.note",
-    "productName": "小冋记事",
+    "appId": "com.linksc.taskflow",
+    "productName": "TaskFlow",
     "icon": "public/icon.ico",
     "forceCodeSigning": false,
     "directories": {

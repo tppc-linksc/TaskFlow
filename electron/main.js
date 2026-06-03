@@ -90,7 +90,7 @@ function createTray() {
     }
   ])
   
-  tray.setToolTip('小冋记事')
+  tray.setToolTip('TaskFlow')
   tray.setContextMenu(contextMenu)
   
   // 点击托盘图标显示/隐藏窗口
@@ -105,11 +105,11 @@ function createTray() {
 }
 
 app.whenReady().then(() => {
-  // 设置应用名称，避免通知显示 electron.app.xiaojiong-note
+  // 设置应用名称，避免通知显示 electron.app.taskflow
   // 必须在 whenReady 之后调用
   // Windows 下使用 setAppUserModelId 设置通知显示的应用名称
   if (process.platform === 'win32') {
-    app.setAppUserModelId('小冋记事')
+    app.setAppUserModelId('TaskFlow')
   }
   createWindow()
 })
