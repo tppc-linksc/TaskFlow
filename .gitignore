@@ -3,3 +3,8 @@ dist/
 release/
 .DS_Store
 *.log
+*.bak
+.claude/
+.env
+.env.*
+!.env.example
